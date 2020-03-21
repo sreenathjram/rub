@@ -1,0 +1,47 @@
+INC000057050692 : gsd 
+https://ch1hub.cognizant.com/sites/Sc1648/MobilityAPAC/Shared%20Documents/US%20Bank%20Bill%20Pay/react-project-boilerplate-master.zip
+https://code.cognizant.com/channel-factory/reactjs-reusable-components
+[‎10/‎31/‎2019 6:57 PM]  Amety, Rakesh (Cognizant):  
+https://code.cognizant.com/channel-factory/reactjs-reusable-components 
+ 
+https://code.cognizant.com/256743/react-boilerplate/blob/master/src/components/pay/payUSBankAccount.js  
+
+
+https://usbank.invisionapp.com/share/THU8S866UR2#/screens/387269615
+https://usbank.invisionapp.com/share/86UDV54JP3R#/screens
+
+
+https://cognizantcorp.webex.com/meet/Ravi.Bhairi
+https://cognizantcorp.webex.com/meet/Rakesh.Amety
+
+chrome.exe --disable-web-security --user-data-dir
+Dinesh -1576
+sudha-1578
+Hariraj-21696
+
+
+9848671338 mallesh
+DDLFB304A22A;DDLFB304A23A
+
+project requirement 
+
+9948716506
+
+
+o	URL: http://dev-shield.usb-ux.com/Globals/Viewport%20Responsive%20Grid (scroll down to “Grid Example” to see where you can adjust props)
+o	Username: shield-user
+o	PW: 4t0m1c
+
+
+http://react-storybook.usb-ux.com/%7Bbreadcrumb.href%7D?path=/story/button--button
+http://react-storybook.usb-ux.com/?path=/story/accordion--accordion
+
+https://code.cognizant.com/256743/react-boilerplate 
+
+new invisionapp
+https://usbank.invisionapp.com/share/KXUNREZB4YG#/screens/391566817
+
+git config --global http.sslVerify false 
+
+
+          {/* <USBNotification variant={isAlertDisplay ? 'error': 'confirmation'} id={isAlertDisplay ? 'error': 'confirmation'} notificationData={[{ text: (isAlertDisplay ? notifcationErrorMsg : successMsg), linkText: null, link: null }]} />  */}
