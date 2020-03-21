@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+	<script>
+		{
+			function foo () {return 1 }
+			foo() === 1
+			{
+				function foo () { return 2 }
+				foo() === 2
+			}
+			foo() === 1
+		}
+		
+		var [a1, , ...b1] = [1,2,3];
+		console.log(a1)
+		console.log(b1)
+	
+		nodes = () => { return {op: "a val", lhs: "b val", rhs: "c val"}}
+		var { op , lhs , rhs } = nodes()
+		console.log(op);
+		console.log(lhs);
+		console.log(rhs);
+		let myFld= "this is my box"
+		let exmObj = {};
+		exmObj = {
+			myFld
+		};
+		debugger;
+
+		let mymap1 = new Map();
+		mymap1.set(1,1);
+		mymap1.set("1",12);
+		console.log(mymap1.get("1"));
+	
+
+		/*function * generatorFunction() {
+			let name="sateesh";
+			debugger;
+			console.log('This will be executed first.');
+			yield 'one line';
+			
+			console.log('I will be printed after the pause');
+			yield name;
+		}
+		
+		const myObj =generatorFunction();
+		debugger;
+		console.log(myObj.next().value);
+		console.log(myObj.next().value);
+		console.log(myObj.next().value);
+		
+		
+		function fetchJson(url) {
+			return fetch(url)
+			.then(request => request.text()
+			.then(text=> {
+				return JSON.stringfy(text);
+			})
+			.catch(errors=> {
+				console.log('errors handlers')
+			});
+		}
+		
+		const fetchJson=co.wrap(function *(url) {
+			try {
+				let request = yield fetch(url);
+				let text = yield request.text();
+				return text;
+			}
+			catch(errors) {
+				console.log('errors handlers');
+			}
+		}); */
+		
+		
+		//JavaScript Array concat() Method
+		var hege = ["Cecilie", "Lone"];
+		var stale = ["Emil", "Tobias", "Linus"];
+		var children = hege.concat(stale);
+		
+		let arr = ["I", "go", "home"];
+		//arr.push(...items) – adds items to the end
+		
+		//arr.pop() – extracts an item from the end,
+		//arr.shift() – extracts an item from the beginning,
+		//arr.unshift(...items) – adds items to the beginning
+		
+		//Splice
+		//arr.splice(index[, deleteCount, elem1, ..., elemN])
+	</script>
+
+</body>
+</html>

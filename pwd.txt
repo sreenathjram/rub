@@ -1,0 +1,97 @@
+https://github.com/sudheerj/angular-interview-questions
+https://www.fullstack.cafe/blog/angular-7-interview-questions-to-crack-in-2019
+https://itnext.io/javascript-promises-vs-rxjs-observables-de5309583ca2
+
+1)	Demonstrate navigating between different routes in an Angular application. ?
+	a)	this.router.navigate(['search']);
+2)	Could you explain services in Angular?
+	a)	Singleton objects in Angular that get instantiated only once during the lifetime of an application are called services. An Angular service contains methods that maintain the data throughout the life of an application.
+		The primary intent of an Angular service is to organize as well as share business logic, models, or data and functions with various components of an Angular application.
+3)	 Discuss the advantages of using Angular?
+	a)	Follows the MVC pattern architecture, Support for two-way data-binding, Supports dependency injection, RESTful services, and validations, Facilitates client and server communication, Has strong features like Event Handlers, Animation, etc.
+4)	What is SPA (Single Page Application) in Angular?
+	a)	In the SPA technology, only a single page, wont reload page , SPA technology is faster and easy to develop as well.
+5)	What is string interpolation in Angular?
+	a)	 {{ }}
+6)	Explain Angular Authentication and Authorization.?
+	a)	The user login credentials are passed to an authenticate API, a JWT (JSON Web Token) is returned,The JWT has information or attributes regarding the current user. The user is then identified with the given JWT. This is called authentication.
+	b)	Post logging-in successfully, different users have a different level of access. While some may access everything, access for others might be restricted to only some resources. The level of access is authorization.
+	http://jasonwatmore.com/post/2018/11/16/angular-7-jwt-authentication-example-tutorial
+7)	How do Observables differ from Promises?
+	a)	A Promise handles a single event when an async operation completes or fails.
+		An Observable is like a Stream and allows to pass zero or more events where the callback is called for each event.
+		Observable also has the advantage over Promise to be cancelable.If the result of an HTTP request to a server or some other expensive async operation isn't needed anymore, the Subscription of an Observable allows to cancel the subscription, while a Promise will eventually call the success or failed callback even when you don't need the notification or the result it provides anymore.
+		Observable provides operators like map, forEach, reduce, ... similar to an array
+8)	 What are the building blocks of Angular?
+	a)	Components ,Data Binding,Dependency Injection (DI),Directives ,Metadata ,Modules ,Routing ,Services ,Template .
+9)	What is AOT (Ahead-Of-Time) Compilation?
+	a)	Each Angular app gets compiled internally. The Angular compiler takes in the JS code, compiles it and then produces some JS code. This happens only once per occasion per user. It is known as AOT (Ahead-Of-Time) compilation.
+10)	What is Data Binding? How many ways it can be done?
+	a)	In order to connect application data with the DOM (Data Object Model), data binding is used. It happens between the template (HTML) and component (TypeScript). There are 3 ways to achieve data binding:
+		1)Event Binding – Enables the application to respond to user input in the target environment
+		2)Property Binding – Enables interpolation of values computed from application data into the HTML
+		3)Two-way Binding – Changes made in the application state gets automatically reflected in the view and vice-versa. The ngModel directive is used for achieving this type of data binding.
+		4) String Interpolation
+11a) What’s new in Angular 5?
+	a)	Certain tools are optimized in the new version of Angular, let us see what the tools are:
+		Angular 5 supports Typescript version 2.4
+		Angular 5 supports RxJS 5.5 which has new features like Pipeable Operators
+		A build tool to make the js bundles (files) lighter
+		Ahead of Time (AOT) is updated to be on by default
+		Events like ActivationStart and ActivationEnd are introduced in Router
+
+11)	What is new in Angular 6?
+	a)	Angular Elements – It allows converting Angular components into web components and embeds the same in some non-Angular application
+		Tree Shakeable Provider – Angular 6 introduces a new way of registering a provider directly inside the @Injectable() decorator. It is achieved by using the providedIn attribute
+		RxJS 6 – Angular 6 makes use of RxJS 6 internally
+		i18n (internationalization) – Without having to build the application once per locale, any Angular application can have “runtime i18n”
+		
+	5 to 6 deffrences,
+	1)	Angular 6 uses <ng-template> instead of <template>
+	2)	updated RxJS6
+	3)	Service Level Changes : If in an earlier version, the user wanted to provide a service to the entire application, the user was required to add it to providers in the AppModule but it is not required in the case of Angular6. 
+	4)	Renamed Operators
+		do() => tap()
+		catch() => catchError()
+		finally() => finalize()
+		switch()=>switchAll()
+		throw() => throwError
+12)	Enumerate some features of Angular 7.
+	a)	Unlike the previous versions of Angular, the 7th major release comes with splitting in @angular/core. This is done in order to reduce the size of the same. Typically, not each and every module is required by an Angular 
+		developer. Therefore, in Angular 7 each split of the @angular/core will have no more than 418 modules.
+		Also, Angular 7 brings drag-and-drop and virtual scrolling into play. The latter enables loading as well as unloading elements from the DOM. For virtual scrolling, the latest version of Angular comes with the package. Furthermore, Angular 7 comes with a new and enhanced version of the ng-compiler.
+13)	What is AOT (Ahead-Of-Time) Compilation?
+	a)	Each Angular app gets compiled internally. The Angular compiler takes in the JS code, compiles it and then produces some JS code. This happens only once per occasion per user. It is known as AOT (Ahead-Of-Time) compilation
+14)	What is the process called by which TypeScript code is converted into JavaScript code?
+	a)	It is called Transpiling. Even though TypeScript is used for writing code in Angular applications, it gets internally transpiled into equivalent JavaScript.
+15)	What is ViewEncapsulation and how many ways are there do to do it in Angular?
+	a)	To put simply, ViewEncapsulation determines whether the styles defined in a particular component will affect the entire application or not. Angular supports 3 types of ViewEncapsulation:
+		Emulated – Styles used in other HTML spread to the component
+		Native – Styles used in other HTML doesn’t spread to the component
+		None – Styles defined in a component are visible to all components of the application
+16)	Discuss the lifecycle designed for directive and components in Angular JS especially for the newly introduced version 6.0?
+	ngOnInit
+	ngDoCheck
+	ngOnDestroy
+	Constructor
+	ngOnChanges
+	ngAfterContentInit (only for components)
+	ngAfterContentChecked (only for components)
+	ngAfterViewInit (only for components)
+	ngAfterViewChecked (only for components)
+	-> 	What is the sequence of Angular Lifecycle Hooks?
+		a)	OnChange() - OnInit() - DoCheck() - AfterContentInit() - AfterContentChecked() - AfterViewInit() - AfterViewChecked() - OnDestroy().
+17)	Differentiate between Components and Directives in Angular 5.
+	a)	Components break up the application into smaller parts; whereas, Directives add behavior to an existing DOM element.
+18)	 What is ng-content Directive?
+	a)	The HTML elements like p (paragraph) or h1 (heading) have some content between the tags. For example, <p>this is a paragraph</p> and <h1>this is a heading</h1>. Now, similar to this, what if we want to have some custom 	text or content between the angular tags like <app-tax>some tax-related content</app-tax> This will not work the way it worked for HTML elements. Now, in such cases, the <ng-content> tag directive is used.
+19)	What is RouterOutlet?
+	a)	RouterOutlet is a substitution for templates rendering the components. In other words, it represents or renders the components on a template at a particular location.
+20)	What is the purpose of using package.json in the angular project?
+	a)	With the existence of package.json, it will be easy to manage the dependencies of the project. If we are using typescript in the angular project then we can mention the typescript package and version of typescript in package.json.
+	
+21)	What are ngModel and how do we represent it?
+	a)	ngModel is a directive which can be applied on a text field. This a two-way data binding. ngModel is represented by [()]
+22)	What does a Subscribe method do in Angular 4?
+	a)	It is a method which is subscribed to an observable. Whenever the subscribe method is called, an independent execution of the observable happens.
+23)	

@@ -1,0 +1,98 @@
+js :
+1)	Difference between apply and call with examples ?
+2)	push(), pop() ,shift(), unshift()?
+3)	Difference between Map and filter with examples ?
+4) const, let, var ?
+5) const ary= [1,2,3];
+	ary.push(4) ?
+	const str="suresh"
+	str="ramesh" //throwd error
+6) how to delete property from Object , and complete object?
+7) pass by value and pass by reference with examples ?
+	
+	pass by reference:
+	object and array are pass by reference
+	var obj = {
+		name: "Sateesh"
+	}
+	var obj2= obj;
+	obj2.name="niranjan";
+	console.log(obj2.obj)
+	output of obj ?
+
+	pass by value:
+	var name ="sateesh";
+	var name2 = name
+	name2="ramesh"
+	console.log(name)
+	console.log(name2)
+
+8)	how many ways to create object ?
+9)	arrow functions , spread , rest , destructring ?
+10)	functions declarations ?
+11)	what is event and event lifecycle ?
+	Event Capturing ,Event Bubbling, event traget ?
+12) event stop propagation and prevent default ?
+13)	how can we find duplicate elements in array ?
+14) how can we remove duplicates elements in array ?
+15)	use of callback function, call back hell ?
+16) promises use ?
+17) promise all , resolve and reject ?
+18)	async , await ?
+19)	event delegation?
+20)	typeof ?
+21)	load and ready state ?
+22)	closure ?
+23) prototype ?
+24) localstorage and session storage, cookies ?
+25)	use of this ?
+26) array/string slice and splice ?
+27)	array methods (map, filter, evenr, foreach, reduce ?
+28)	synchronus and asynchronus ?
+29)	lexical scope,
+30)	how to print string in reverse order?
+31)	how to prase string and parse json ?
+
+
+1)	'==', '===' difference ?
+2)	find middle number from array ? [1,2,3,4,5] middle element ?
+3)	find matched character from string ?
+4)	var a=b=10 ; what a ?
+5)	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) if i dont put doctypr

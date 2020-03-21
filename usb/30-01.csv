@@ -1,0 +1,18 @@
+Summary,Issue key,Status,Assignee,Owner
+App crashing in multiple devices,MOB2-31176,Open,c050819,Niramal
+Alphanumeric key pad is getting displayed instead of number pad,MOB2-31108,Open,c050325,Dinesh
+Mortgage- amount is not getting added to the total amount,MOB2-31091,Open,c050325,Dinesh
+Dashboard-Heading and Biller display name different from invision,MOB2-30931,Open,c050342,Sudha
+Dashboard-Over due should be small and Text is getting copied,MOB2-30926,Open,c050342,Sudha
+Make my payment-Done button is clickable even without giving any amount,MOB2-30650,Open,c050257,Hari raj
+Error message is wrong for Calendar,MOB2-30646,Open,c052115,
+Ready to send pop up is large,MOB2-30533,On Hold,c050257,Hari raj
+Mortgage-Amount is getting added every time done button is selected,MOB2-29604,Open,c050325,Dinesh
+Make a payment - Calendar - Able to select dates before current date,MOB2-29573,On Hold,c050257,Hari raj
+Make a payment - Calendar - Structure is different from in vision,MOB2-29568,On Hold,c050257,Hari raj
+Dashboard - 'Autopay' text and sync symbol is displayed in different line,MOB2-29167,On Hold,c052117,
+Review and edit page-Calender component errors,MOB2-28775,Development In Progress,c051244,
+Review and edit payment - Payment amount is displayed as $NaN,MOB2-28178,Open,c050962,
+Choose Payment - Alphanumeric keyboard is displayed instead of Number pad,MOB2-27328,Open,c050257,Hari raj
+Confirmation - Alignment issue in confirmation page,MOB2-26896,On Hold,c052117,
+"Choose payment screen - ""Done"" button is missing in number pad ",MOB2-26887,Open,c052117,
